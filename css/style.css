@@ -1,0 +1,340 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+/***************************************************************
+* Lawyer code start
+************************************************************** */
+/* header start */
+.header{
+    width: 100%;
+    padding: 10px 0px;
+}
+.header .bg-light{
+    background: #fff !important;
+}
+.header .navbar-light .navbar-nav .nav-link {
+    color: #28377e;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 0 15px;
+}
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+    color: #f2622c;
+}
+/* header end */
+
+/* slider start */
+.slider{
+    width: 100%;
+    padding: 50px 0px;
+    background: url("../images/slider.png") center top no-repeat;
+    background-size: cover ;
+}
+.slider h2{
+    font-size: 54px;
+    line-height: 64px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+.slider .arrow{
+    width: 100%;
+    padding: 150px 0px;
+    position: relative;
+}
+.slider .arrow img{
+    position: absolute;
+    margin: 80px 0px 0px -24px;
+}
+/* slider end */
+
+/* who-we start */
+.who-we{
+    width: 100%;
+    padding: 80px 0px;
+}
+.who-we .line{
+    margin: 40px 0 10px;
+}
+.who-we h2{
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#28377e;
+    margin: 0 0 20px;
+}
+.who-we p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color:#b0b0b1;
+}
+.who-we .inner-img{
+    width: 100%;
+    text-align: center;
+}
+/* who-we end */
+
+/* what-we-do start */
+.what-we-do{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/what-bg.png") ;
+    background-color: #f7f8f8;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.what-we-do .title{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.what-we-do .title img{
+    margin-bottom: 10px;
+}
+.what-we-do .title h2{
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#28377e;
+}
+.what-we-do .inner-box{
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.what-we-do .inner-box .inner-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    left: -10%;
+    top: 40%;
+}
+.what-we-do .inner-box .inner-text h4{
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#fff;
+}
+.what-we-do .inner-box .inner-text .long-arrow{
+    width: 50%;
+    margin: 125px 0 0 105px;
+}
+/* what-we-do end */
+
+/* attorney start */
+.attorney{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/attorneys-bg.png") ;
+    background-color: #f7f8f8;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.attorney .title{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: left;
+}
+.attorney .title img{
+    margin-bottom: 10px;
+}
+.attorney .title h2{
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    color:#fff;
+}
+.attorney .title p{
+    width: 70%;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #929dcf;
+}
+.attorney .title .btn-link {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f2622c;
+    text-decoration: none;
+    padding: 0px;
+}
+.attorney .inner-box{
+    width: 100%;
+    margin: 0 0 30px;
+    position: relative;
+}
+.attorney .inner-box img{
+    width: 100%;
+}
+.attorney .inner-box .inner-text{
+    width: 100%;
+    position: absolute;
+    left: 5%;
+    top: 74%;
+}
+.attorney .inner-box .inner-text h4{
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#fff;
+    text-align: left;
+}
+.inner-box .inner-text .long-arrow{
+    width: 50%;
+    margin: 125px 0 0 105px;
+}
+/* attorney end */
+.language{
+    width: 100%;
+    padding: 80px 0px;
+}
+.language .title{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.language .title img{
+    margin-bottom: 10px;
+}
+.language .title h2{
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#28377e;
+}
+.inner-language{
+    width: 100%;
+}
+.inner-language h4{
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#fff;
+    text-align: left;
+}
+.inner-language p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color:#b0b0b1;
+}
+.inner-language .btn-link{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f2622c;
+    text-decoration: none;
+    padding: 0px;
+}
+
+/* contact start */
+.contact{
+    width: 100%;
+    padding: 80px 0px;
+    background: #28377e;
+}
+.contact .title{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.contact .title img{
+    margin-bottom: 10px;
+}
+.contact .title h2{
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#fff;
+}
+.contact .form{
+    width: 50%;
+    margin: 0px auto;
+}
+.contact .form .form-control{
+    border:none;
+    border-bottom: 2px solid #000;
+    border-radius: 0px;
+    background:#28377e;
+}
+.form .form-control::placeholder{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+.form .btn{
+    color: #fff;
+    background: #f2622c;
+    width: 200px;
+    margin: 50px auto 0;
+    border-radius: 0px;
+    display: block;
+}
+/* contact end */
+
+/* header start */
+.footer{
+    width: 100%;
+    padding: 40px 0;
+    background: #0c1234;
+}
+.footer .inner-footer{
+    width: 100%;
+}
+.footer .inner-footer p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color:#b0b0b1;
+    padding: 0;
+    margin: 0;
+}
+.footer .footer-social{
+    width: 100%;
+    text-align: right;
+}
+.footer .footer-social i{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+/* header end */
+
+/***************************************************************
+* Lawyer code end
+************************************************************** */
